@@ -47,22 +47,26 @@ class Login extends React.Component {
 
   render() {
     const { buttonChecker } = this.state;
+    const sizeWidth = 600;
     return (
       <section className="main-login">
         <div className="flexible-horizon flex-gap100 div-main-form">
-          <div className="flexible-horizon">
-            <img
-              src={ walletImg }
-              alt="My Wallet"
-              className="wallet-image-login"
-            />
-          </div>
-          <hr />
+          { window.screen.width >= sizeWidth
+            && (
+              <>
+                <img
+                  src={ walletImg }
+                  alt="My Wallet"
+                  className="wallet-image-login"
+                />
+                <hr />
+              </>
+            )}
           <form
             className="Form"
             data-testid="form-login"
           >
-            <h1 className="title-form-login">Login</h1>
+            <h3 className="title-form-login">Login</h3>
             <div className="form-main">
               <div className="col-md-4 div-label-inputs">
                 <label
