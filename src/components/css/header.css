@@ -1,0 +1,27 @@
+.div-title-header {
+  align-items: flex-end;
+  gap: 5px;
+  height: 100%;
+}
+
+.title-header {
+  color: var(--mainGreen);
+}
+
+.my-wallet-image-Header {
+  align-self: center;
+  justify-self: flex-start;
+  width: 40px;
+}
+
+.div-info-header {
+  display: flex;
+  flex-grow: 4;
+  gap: 50px;
+  justify-content: center;
+}
+
+.div-info-maney {
+  gap: 10px;
+}
+

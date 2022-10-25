@@ -1,0 +1,9 @@
+.td-buttons {
+  align-items: center;
+  justify-content: center;
+}
+
+.div-buttons-table {
+  display: flex;
+  gap: 5px;
+}
