@@ -119,14 +119,12 @@ hr {
 @media screen and ( max-width : 1130px ) and ( min-width : 200px ) {
 
   .main-login {
-    border: 1px solid blue;
     height: 100vh;
     justify-content: space-around;
     width: 100vw;
   }
 
   .div-main-form {
-    border: 1px solid red;
     gap: 0;
     height: 100vh;
     padding-top: 30px;
